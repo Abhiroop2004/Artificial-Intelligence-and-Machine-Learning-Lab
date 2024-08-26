@@ -24,7 +24,7 @@ iterations = int(input("Enter number of iterations: "))
 input=np.array([[5, 4], [4, 5], [5, 5], [12, 5], [5, 12], [12, 12], [12,11], [11,12], [30,20], [20, 30], [20, 4], [5, 20]])
 output=np.array([[1], [0], [0], [1], [0], [0], [1], [0], [1], [0], [1], [0]])
 train(input, output, iterations)
-prediction = learn(np.array([6,2]))
+prediction = learn(np.array([x_1, x_2]))
 if (prediction > 0.5):
     print (1)
 else:
